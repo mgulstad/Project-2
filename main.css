@@ -1,0 +1,543 @@
+
+body {
+    overflow-x: hidden;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    background-color: #111111;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3em;
+    font-weight: 600;
+    font-family: Rajdhani, sans-serif;
+    color: #eeeeee;
+    text-align: left;
+    padding: 0;
+    margin: 1rem 2rem 1.5rem 2rem;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #eeeeee;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+    max-width: 350px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #65A3D3;
+    text-align: left;
+    padding-bottom: 0.75rem;
+    margin: 0;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-family: Rajdhani, sans-serif;
+    color: #eeeeee;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    line-height: 40px;
+    width: 125px;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #C1C1C1;
+    font-weight: 400;
+    margin: 1.5rem 2rem;
+    line-height: 30px;
+}
+
+.skills-h2 {
+    max-width: 100%;
+}
+
+.project-h1 {
+    margin: 1rem 0 3rem 0;
+    font-size: 4em;
+}
+
+.proj-hero-h2 {
+    font-size: 2em;
+    font-weight: 400;
+    max-width: 100%;
+}
+
+.project-h2 {
+    font-size: 3em;
+    font-weight: 500;
+    padding-bottom: 1rem;
+    max-width: 100%;
+}
+
+.project-p {
+    margin: 0 0 1.5rem 0;
+}
+
+.project-p-top {
+    margin: 3.5rem 0 1.5rem 0;
+}
+
+.project-timeline-p {
+    line-height: 40px;
+    float: right;
+    font-weight: 300;
+    margin-right: 0;
+}
+
+ul {
+    font-size: 1.5em;
+    font-family: 'Sofia Sans', sans-serif;
+    color: #C1C1C1;
+    font-weight: 400;
+    margin: 1.5rem 1rem;
+    line-height: 30px;
+}
+
+li {
+    padding-bottom: 1rem;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.lite-bump {
+    padding-top: 2rem;
+}
+
+.bump {
+    padding-top: 7.5rem;
+}
+
+.h2-bump {
+    padding-top: 3rem;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 2rem;
+}
+
+.line {
+    margin-left: 2rem;
+}
+
+.long-line {
+    margin: 3rem 7.5rem 10rem 7.5rem;
+}
+
+header {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0 7.5rem 5rem 7.5rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+header li {
+    color: #eeeeee;
+    font-size: 1.25em;
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 300;
+    display: inline-block;
+    padding: 2rem;
+}
+
+a:link {
+    color: #eeeeee;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #eeeeee;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    margin: 0 7.5rem;
+}
+
+#full {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+    padding: 5rem 0 1rem;
+}
+
+#home-h2 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin: 2rem 2rem 0 2rem;
+    color: #65A3D3;
+}
+
+.hero {
+    padding: 1rem 0 3rem 0;
+}
+
+#hero-project-snow {
+    max-width: 1440px;
+    width: 1440px;
+    height: 715px;
+    background-color: #2C3350;
+    margin: 5rem 0;
+    text-align: center;
+}
+
+#hero-project-snow img {
+    margin-top: 5rem;
+}
+
+
+#homepage-hero {
+    margin-bottom: 8rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 6rem;
+}
+
+.row-snow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-snow-hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#row-about {
+    padding: 0;
+}
+
+.column-snow-big {
+    width: 50%;
+    padding-top: 7.5rem;
+    height: 90%;
+}
+
+.column-snow-small {
+    width: 45%;
+    padding-top: 7.5rem;
+    text-align: center;
+}
+
+.snow-hero-column {
+    width: 50%;
+    padding: 0;
+}
+
+.column-about {
+    width: 40%;
+    margin: 0 2rem;
+}
+
+#about-column-p {
+    width: 45%;
+    padding: 0;
+    margin: 0;
+}
+
+.homepage-column {
+    width: 550px;
+    padding: 0 0.5rem;
+}
+
+.homepage-column h1 {
+    width: 500px;
+    margin: 0;
+}
+
+.box {
+    width: 550px;
+    height: 500px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+#about {
+    padding-bottom: 0;
+}
+
+#picture {
+    background-image: url("img/portfolio-img-proj-2.jpeg");
+    width: 550px;
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 0;
+}
+
+#icon {
+    padding-top: 100px;
+}
+
+#dark-blue {
+    background-color: #2C3350;
+}
+
+#gold {
+    background-color: #E5A121;
+}
+
+#light-blue {
+    background-color: #5097CD;
+}
+
+#umn-h1 {
+    float: right;
+    text-align: right;
+}
+
+#umn-h3 {
+    text-align: right;
+}
+
+.skillCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    width: 350px;
+    height: 400px;
+    background-image: linear-gradient(to bottom right, #2D2D2D, #111111);
+    border-radius: 25px;
+    margin: 2rem 1rem;
+}
+
+.cardTop {
+    width: 350px;
+    height: 250px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background-color: #5097CD;
+    text-align: center;
+}
+
+.cardTop img {
+    margin-top: 3rem;
+}
+
+#prototypeCard-img {
+    transform: translateX(-7.5%);
+}
+
+#personaCard-img {
+    transform: translateY(10%);
+}
+.card h2 {
+    text-align: center;
+    padding-top: 3.5rem;
+}
+
+.card a:hover {
+    text-decoration: none;
+}
+
+.card:hover {
+    background-image: none;
+    background-color: #252525;
+}
+
+#wireframe1 {
+    text-align: center;
+    padding-top: 7.5rem;
+}
+
+#wireframe2 {
+    text-align: center;
+    padding-top: 7.5rem;
+}
+
+#prototype {
+    text-align: center;
+    padding-top: 7.5rem;
+}
+
+#styleguide {
+    text-align: center;
+    padding-top: 7.5rem;
+}
+
+.caption {
+    font-size: 1em;
+    color: #eeeeee;
+}
+
+.next-page {
+    height: 250px;
+    background-color: #252525;
+    margin-top: 10rem;
+    width: 1440px;
+
+}
+
+.next-page-title {
+    height: 50px;
+}
+
+.next-page h2 {
+    margin-left: 7.5rem;
+    transform: translateY(-50%);
+}
+
+.next-page h1 {
+    margin: 3.5rem 0 0 10rem;
+}
+
+.next-page-title img {
+    transform: translateY(125px);
+}
+
+.next-page:hover {
+    background-color: #3a3a3a;
+}
+
+#UMN-app {
+    background-color: #702525;
+}
+
+footer {
+    margin: 5rem 7.5rem 0 7.5rem;
+    border-top: 2px solid #65A3D3;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.no-border {
+    border: none;
+    margin-top: 2rem;
+}
+
+.socialIcons {
+    margin-right: 2rem;
+}
+
+footer p {
+    color: #eeeeee;
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    text-align: left;
+}
+
+footer a:link {
+    color: #eeeeee;
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #eeeeee;
+}
+
+footer a:active {
+    color: #65A3D3;
+}
+
+.proj-button {
+    width: 125px;
+    height: 40px;
+    border: 1px solid #65A3D3;
+    margin-top: 20px;
+
+}
+
+#right-button{
+    float: right;
+}
+
+.back-button {
+    margin: 0 9.5rem;
+}
+
+.button-container {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 3rem;
+}
+
+.button-container h4 {
+    width: 50px;
+}
+
+.button-container img {
+    width: 40px;
+    height: 40px;
+    padding-right: 0.75rem;
+}
+
+#up-button {
+    position: fixed;
+    background-color: #252525;
+    border-radius: 50%;
+    right: 3%;
+    bottom: 15%;
+    z-index: 100;
+}
+
+#up-button:hover {
+    background-color: #404040;
+}
+
+.hidden {
+    opacity: 0;
+    filter: blur(10px);
+    transform: translateY(25%);
+    transition: 500ms;
+}
+
+.hiddenCards {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateY(10%);
+    transition: 500ms;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateY(0);
+}
+
+@media(prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
